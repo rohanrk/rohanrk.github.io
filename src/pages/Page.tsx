@@ -1,6 +1,7 @@
 import * as React from "react";
 import Header from '../component/Header'
 import Sidebar from "../component/Sidebar";
+import Todo from "../pages/Todo/Todo";
 import { PageType } from "../util/types";
 
 interface PageProps {}
@@ -21,6 +22,7 @@ class Page extends React.Component<PageProps, PageState> {
     <div id="container">
         <Sidebar />
         <Header title="Rohan's Personal Site" />
+        <Todo />
     </div>
     )
   }
