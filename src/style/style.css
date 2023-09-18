@@ -1,0 +1,29 @@
+body {
+    background-color: #d8e2ff;
+}
+
+div.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.sidebar {
+    float: left;
+    vertical-align: middle;
+    position: relative;
+}
+
+.sidebar_entries {
+    list-style: none;
+    align-items: center;
+    font-size: large;
+}
+
+.li {
+    
+}
+
+.header {
+    font-family: "Libre Franklin";
+    font-size: larger;
+}
