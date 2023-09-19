@@ -1,22 +1,18 @@
 import * as React from "react";
 
+import "../style/header.css";
+
 interface HeaderProps {
   title: string;
   image?: File;
 }
 
-class Header extends React.Component<HeaderProps> {
-  constructor(props: HeaderProps) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="header">
-        <h1>{this.props.title}</h1>
-      </div>
-    );
-  }
-}
+const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
+  return (
+    <div className="header">
+      <h1>{props.title}</h1>
+    </div>
+  );
+};
 
 export default Header;
