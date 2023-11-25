@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "../style/banner.css"
+import "../style/banner.css";
 
 interface BannerProps {
   text: string;

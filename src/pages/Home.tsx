@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   return (
     <div className="home">
       <Banner text="Rohan Ramakrishnan" />
-      <h3>Contact me!</h3>
+      <h2>Contact me!</h2>
       <ul className="contact">
         <li>
           <a href="mailto:rohanrk2009@gmail.com">Gmail</a>
@@ -24,6 +24,14 @@ const Home: React.FC = () => {
           <a href="https://www.linkedin.com/in/rohanramakrishnan/">Linkedin</a>
         </li>
       </ul>
+
+      <div className="wip">
+        <p>TODO: Finish this website... someday</p>
+        <img className="pfp"
+          src="pfp.png"
+          alt="An image of me working that's not loading"
+        ></img>
+      </div>
     </div>
   );
 };

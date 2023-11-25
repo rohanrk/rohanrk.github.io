@@ -9,7 +9,9 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html --public-url ./",
-    "deploy": "push-dir --dir=dist --branch=deploy --cleanup --verbose"
+    "deploy": "push-dir --dir=dist --branch=deploy --cleanup --verbose",
+    "copy-assets": "cp -vR src/asset ./dist",
+    "clean": "rm -rf ./dir"
   },
   "repository": {
     "type": "git",
