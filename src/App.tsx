@@ -5,7 +5,12 @@ import Sidebar from "./component/Sidebar";
 import { PageType } from "./util/types";
 import Todo from "./pages/Todo";
 import Home from "./pages/Home";
-import { createBrowserRouter, Outlet, RouterProvider, useLocation } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+  useLocation,
+} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Todo />,
+        element: <Home />,
       },
       {
         path: "/home",
@@ -32,9 +37,8 @@ const router = createBrowserRouter([
         path: "/art",
         element: <Todo />,
       },
-    ]
+    ],
   },
-  
 ]);
 
 interface AppProps {}
@@ -50,9 +54,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.StrictMode>
-        <RouterProvider router={router} />
-      </React.StrictMode>
+      // <React.StrictMode>
+      //   <RouterProvider router={router} />
+      // </React.StrictMode>
+      <Home />
     );
   }
 }

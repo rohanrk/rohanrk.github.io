@@ -9,7 +9,9 @@ const Sidebar: React.FC<{}> = () => {
     <nav className="sidebar">
       <ul className="sidebar_list">
         {Object.keys(PageType).map((section) => (
-          <li><NavLink to={`/${section.toLowerCase()}`}>{section}</NavLink></li>
+          <li>
+            <NavLink to={`/${section.toLowerCase()}`}>{section}</NavLink>
+          </li>
         ))}
       </ul>
     </nav>

@@ -4,15 +4,12 @@
     float: left;
     vertical-align: middle;
     position: relative;
+    margin-bottom: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
 }
 
 .sidebar_list {
     list-style: none;
     font-size: large;
-}
-
-li {
-    margin-bottom: 24px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 24px;
 }

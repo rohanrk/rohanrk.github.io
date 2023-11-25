@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Quicksand";
+    src: 
+      local("../assets/Quicksand/static/Quicksand-Light.ttf"),
+      local("../assets/Quicksand/static/Quicksand-Regular.ttf"),
+      local("../assets/Quicksand/static/Quicksand-SemiBold.ttf"),
+}
+
 body {
-    background-color: #d8e2ff;
+    background-color: #d5dceb;
 }
