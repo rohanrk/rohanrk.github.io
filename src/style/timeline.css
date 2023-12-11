@@ -1,0 +1,11 @@
+
+.timeline {
+    margin-top: 30px;
+    margin-left: 50%;
+    font-size: 25px;
+    border-left: 2px solid black;
+}
+
+.timeline-entry {
+    padding-left: 12px;
+}

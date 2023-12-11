@@ -4,6 +4,7 @@ import "../style/banner.css";
 
 interface BannerProps {
   text: string;
+  image?: File;
 }
 
 const Banner: React.FC<BannerProps> = (props: BannerProps) => {

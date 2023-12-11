@@ -1,13 +1,13 @@
 export enum PageType {
-  HOME = "home",
-  CAREER = "career",
-  PROJECTS = "projects",
-  ART = "art",
+  Home = "Home",
+  Career = "Career",
+  Projects = "Projects",
+  Art = "Art",
 }
 
 export const PAGE_TO_COLOR = {
-  HOME: "#d8e2ff",
-  CAREER: "#f2b5a7",
-  PROJECTS: "#000000",
-  ART: "#000000",
+  Home: "#d8e2ff",
+  Career: "#f2b5a7",
+  Projects: "#000000",
+  Art: "#000000",
 };

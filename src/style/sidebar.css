@@ -1,15 +1,25 @@
 .sidebar {
     padding-top: 300px;
-    padding-bottom: 300px;
     float: left;
     vertical-align: middle;
     position: relative;
     margin-bottom: 24px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-family: Palatino, Helvetica, Arial, sans-serif;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #707070
+}
+
+.sidebar a:active {
+    color: #575757
 }
 
 .sidebar_list {
     list-style: none;
     font-size: large;
+    line-height: 2.2;
+    font-size: 32px;
+    text-decoration: none;
 }

@@ -10,7 +10,14 @@ const Sidebar: React.FC<{}> = () => {
       <ul className="sidebar_list">
         {Object.keys(PageType).map((section) => (
           <li>
-            <NavLink to={`/${section.toLowerCase()}`}>{section}</NavLink>
+            <NavLink
+              to={`/${section.toLowerCase()}`}
+              className={({ isActive, isPending }) =>
+                [isPending ? "pending" : "", isActive ? "active" : ""].join(" ")
+              }
+            >
+              {section}
+            </NavLink>
           </li>
         ))}
       </ul>

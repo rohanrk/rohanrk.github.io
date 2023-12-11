@@ -1,10 +1,11 @@
 import * as React from "react";
 import { render } from "react-dom";
-import Header from "./component/Header";
+import Banner from "./component/Banner";
 import Sidebar from "./component/Sidebar";
 import { PageType } from "./util/types";
 import Todo from "./pages/Todo";
 import Home from "./pages/Home";
+import Career from "./pages/Career";
 import {
   createBrowserRouter,
   Outlet,
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/career",
-        element: <Todo />,
+        element: <Career />,
       },
       {
         path: "/projects",
@@ -54,10 +55,9 @@ class App extends React.Component {
 
   render() {
     return (
-      // <React.StrictMode>
-      //   <RouterProvider router={router} />
-      // </React.StrictMode>
-      <Home />
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
     );
   }
 }
@@ -66,7 +66,7 @@ function Layout(): React.ReactElement {
   return (
     <div id="container">
       <Sidebar />
-      <Header title="Rohan's Personal Site" />
+      <Banner text="Rohan's Personal Site" />
       <Outlet />
     </div>
   );

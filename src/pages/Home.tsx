@@ -11,7 +11,6 @@ interface HomeProps {
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <Banner text="Rohan Ramakrishnan" />
       <h2>Contact me!</h2>
       <ul className="contact">
         <li>
@@ -27,7 +26,8 @@ const Home: React.FC = () => {
 
       <div className="wip">
         <p>TODO: Finish this website... someday</p>
-        <img className="pfp"
+        <img
+          className="pfp"
           src="pfp.png"
           alt="An image of me working that's not loading"
         ></img>
