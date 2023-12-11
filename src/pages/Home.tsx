@@ -24,6 +24,17 @@ const Home: React.FC = () => {
         </li>
       </ul>
 
+      <h2>Prior Work</h2>
+      <p>Miscellaneous things I've written or worked on</p>
+      <ul className="projects">
+        <li>
+          <a href="http://hdl.handle.net/1853/63853">Evaluating Off Center Head Worn Displays</a>
+        </li>
+        <li>
+          <a href="https://apps.apple.com/us/app/brainy-sight-words/id1459542744">Brainy Phonics</a>
+        </li>
+      </ul>
+
       <div className="wip">
         <p>TODO: Finish this website... someday</p>
         <img
