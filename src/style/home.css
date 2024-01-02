@@ -4,6 +4,10 @@
 
 .contact {
     margin-left: 10px;
+    padding-left: 200px;
+}
+
+.contact-list {
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -23,5 +27,9 @@
 
 .projects {
     margin-left: 10px;
+    padding-left: 200px;
+}
+
+.projects-list {
     font-family: Helvetica, Arial, sans-serif;
 }
