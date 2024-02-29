@@ -1,9 +1,7 @@
 .sidebar {
-    padding-top: 300px;
+    margin-top: 8em;
     float: left;
-    vertical-align: middle;
     position: relative;
-    margin-bottom: 24px;
     font-family: Palatino, Helvetica, Arial, sans-serif;
 }
 
@@ -19,7 +17,7 @@
 .sidebar_list {
     list-style: none;
     font-size: large;
-    line-height: 2.2;
-    font-size: 32px;
+    line-height: 2;
+    font-size: 2.2rem;
     text-decoration: none;
 }

@@ -1,16 +1,17 @@
 import * as React from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 import Banner from "./component/Banner";
 import Sidebar from "./component/Sidebar";
 import { PageType } from "./util/types";
-import Todo from "./pages/Todo";
-import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import Career from "./pages/Career";
+import Home from "./pages/Home";
+import Post from "./pages/Post";
+import Todo from "./pages/Todo";
 import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
-  useLocation,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -31,8 +32,15 @@ const router = createBrowserRouter([
         element: <Career />,
       },
       {
-        path: "/projects",
-        element: <Todo />,
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/blog/:post",
+        element: <Post />,
+        loader: async ({ params }) => {
+          return fetch(`/posts/markdown/${params.post}.md`).then(response => response.text());
+        },
       },
       {
         path: "/art",
@@ -65,11 +73,11 @@ class App extends React.Component {
 function Layout(): React.ReactElement {
   return (
     <div id="container">
-      <Sidebar />
       <Banner text="Rohan's Personal Site" />
+      <Sidebar />
       <Outlet />
     </div>
   );
 }
-
-render(<App />, document.getElementById("root"));
+1
+createRoot(document.getElementById("root")!).render(<App />)

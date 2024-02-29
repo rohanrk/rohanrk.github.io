@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "path": "blog/why.md",
+            "title": "Another test title",
+            "subtitle": "A test page",
+            "date": "2/27/24"
+        },
+        {
+            "path": "blog/intro.md",
+            "title": "A test title",
+            "subtitle": "A test page",
+            "date": "2/14/24"
+        }
+    ]
+}

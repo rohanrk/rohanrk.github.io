@@ -38,15 +38,6 @@ const Home: React.FC = () => {
           </li>
         </ul>
       </div>
-
-      <div className="wip">
-        <p>TODO: Finish this website... someday</p>
-        <img
-          className="pfp"
-          src="pfp.png"
-          alt="An image of me working that's not loading"
-        ></img>
-      </div>
     </div>
   );
 };
