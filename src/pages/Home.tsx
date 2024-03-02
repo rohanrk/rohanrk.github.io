@@ -8,7 +8,7 @@ interface HomeProps {
   sections: string[];
 }
 
-const Home: React.FC = () => {
+const Home: React.FC<{}> = () => {
   return (
     <div className="home">
       <div className="contact">

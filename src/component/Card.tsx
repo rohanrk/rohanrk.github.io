@@ -3,8 +3,8 @@ import * as React from "react";
 import '../style/card.css';
 
 interface CardProps {
-    title: string;
-    subtitle: string;
+    title: string | React.ReactNode;
+    subtitle?: string;
     date: String
 }
 
