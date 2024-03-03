@@ -2,8 +2,11 @@
     font-size: 1.5rem;
 }
 
+.intro {
+    padding-left: 13rem;
+}
+
 .contact {
-    margin-left: 1rem;
     padding-left: 13rem;
 }
 
@@ -26,7 +29,6 @@
 }
 
 .projects {
-    margin-left: 1rem;
     padding-left: 13rem;
 }
 
