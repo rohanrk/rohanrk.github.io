@@ -52,7 +52,7 @@ const Home: React.FC<{}> = () => {
         <p>TODO: Finish this website... someday</p>
         <img
           className="pfp"
-          src="pfp.png"
+          src="/asset/pfp.png"
           alt="An image of me working that's not loading"
         ></img>
       </div>
