@@ -12,7 +12,7 @@ const Home: React.FC<{}> = () => {
   return (
     <div className="home">
       <div className="intro">
-        <h2>Who are you?</h2>
+        <h2>Welcome!</h2>
         <p>
           Hello friend! I'm Rohan, one of the many tech people out in the world!
           Right now, I'm a Site Reliability Engineer at Google. Working on
@@ -49,15 +49,6 @@ const Home: React.FC<{}> = () => {
             </a>
           </li>
         </ul>
-      </div>
-
-      <div className="wip">
-        <p>TODO: Finish this website... someday</p>
-        <img
-          className="pfp"
-          src="/asset/pfp.png"
-          alt="An image of me working that's not loading"
-        ></img>
       </div>
     </div>
   );

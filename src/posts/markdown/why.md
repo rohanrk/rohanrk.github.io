@@ -18,7 +18,6 @@ So expect any amount of tech rants, book reviews, and thoughts on the current fa
 
 
 
-
 ## not use Medium?
 
-I'm a special snowflake who likes to have his own website. Also sometimes I like writing [Javascript](https://www.destroyallsoftware.com/talks/wat).
+Because this site was a great excuse to learn React and it keeps my Github history green. Obligatory [Javascript talk](https://www.destroyallsoftware.com/talks/wat).
