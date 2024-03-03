@@ -4,13 +4,15 @@
             "path": "/blog/why",
             "title": "Why?",
             "subtitle": "Self reflection on why this page exists",
-            "date": "2/27/24"
+            "date": "Feb 27, 2024",
+            "tags": ["#personal", "#meta"]
         },
         {
             "path": "/blog/intro",
             "title": "Intro",
             "subtitle": "It me!",
-            "date": "2/14/24"
+            "date": "Feb 14, 2024",
+            "tags": ["#personal"]
         }
     ]
 }

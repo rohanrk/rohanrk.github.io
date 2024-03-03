@@ -11,7 +11,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = (props: CardProps) => {
     return <div className="card">
         <h1 className="card-title">{props.title}</h1>
-        <p className="card-subtitle">{props.subtitle}</p>
+        <h3 className="card-subtitle"><em>{props.subtitle}</em></h3>
         <p className="card-date">{props.date}</p>
     </div>
 }

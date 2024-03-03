@@ -1,20 +1,30 @@
 .card {
-    padding: 10px 10px 10px 2rem;
-    margin: 1.5rem 40rem 0rem 13rem;
+    padding: 0.3rem 0.6rem 0.6rem 1.2rem;
+    margin: 1.5rem 20rem 0rem 13rem;
     border-radius: 1.2rem;
     background-color: #e3e3e3;
     border-radius: .5rem;
     border-color: #aaa;
 }
 
-.card-title {
+.card a {
+    text-decoration: none;
+    color: #000;
+}
 
+.card a:active {
+    color: #000;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    line-height: 0.3;
 }
 
 .card-subtitle {
-    
+    line-height: 1;
 }
 
 .card-date {
-
+    line-height: 0.2;
 }
