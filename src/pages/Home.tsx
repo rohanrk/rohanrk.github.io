@@ -12,6 +12,13 @@ const Home: React.FC = () => {
   return (
     <div className="home">
       <Banner text="Rohan Ramakrishnan" />
+      <div className="intro">
+        <h2>Who are you?</h2>
+        <p>Hello friend! I'm Rohan, one of the many tech people out in the world!
+           Right now, I'm a Site Reliability Engineer at Google. Working on polishing 
+           up this site but thanks for stopping by!
+        </p>
+      </div>
       <h2>Contact me!</h2>
       <ul className="contact">
         <li>

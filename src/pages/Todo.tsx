@@ -1,7 +1,15 @@
 import * as React from "react";
 
 const Todo: React.FC<{}> = () => {
-  return <h2>Working on it! Please come back soon...</h2>;
+  return (
+    <div className="wip">
+        <p>TODO: Finish this website... someday</p>
+        <img className="pfp"
+          src="pfp.png"
+          alt="An image of me working that's not loading"
+        ></img>
+      </div>
+  )
 };
 
 export default Todo;
