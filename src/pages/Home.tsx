@@ -18,6 +18,7 @@ const Home: React.FC<{}> = () => {
           Right now, I'm a Site Reliability Engineer at Google. Working on
           polishing up this site but thanks for stopping by!
         </p>
+        <p>"The best part of being a computer scientist is literally committing to the bit"</p>
       </div>
       <div className="contact">
         <h2>Contact me!</h2>
