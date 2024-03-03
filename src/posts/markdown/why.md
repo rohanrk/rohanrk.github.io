@@ -1,6 +1,6 @@
 # Why...?
 
-## ...did you start this blog?
+## did you start this blog?
 
 I honestly have no clue. 
 
@@ -14,11 +14,11 @@ But I love thinking and sharing my thoughts about a lot of subjects, most of whi
 
 So expect any amount of tech rants, book reviews, and thoughts on the current fate of my career choice! I hope you either find my words useful or entertaining (in that order).
 
-## ...are you in tech?
+## are you in tech?
 
 
 
 
-## ...not use Medium?
+## not use Medium?
 
 I'm a special snowflake who likes to have his own website. Also sometimes I like writing [Javascript](https://www.destroyallsoftware.com/talks/wat).
