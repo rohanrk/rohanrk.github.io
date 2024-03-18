@@ -1,11 +1,26 @@
 @font-face {
     font-family: "Quicksand";
     src: 
-      local("Quicksand-Light.ttf"),
-      local("Quicksand-Regular.ttf"),
-      local("Quicksand-SemiBold.ttf"),
+      local("Quicksand-Light"),
+      local("Quicksand-Regular"),
+      local("Quicksand-SemiBold"),
+
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src:
+      local("Meriweather-Black.ttf")
+      local("Meriweather-BlackItalic.ttf")
+      local("Meriweather-Bold.ttf")
+      local("Meriweather-BoldItalic.ttf")
+      local("Meriweather-Italic.ttf")
+      local("Meriweather-Light.ttf")
+      local("Meriweather-LightItalic.ttf")
+      local("Meriweather-Regular.ttf")
 }
 
 body {
     background-color: #d5dceb;
+    font-family: Merriweather, Helvetica, Arial, sans-serif;;
 }

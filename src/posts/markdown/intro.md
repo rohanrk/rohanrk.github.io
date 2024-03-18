@@ -10,6 +10,8 @@ I start too many projects and then forget to finish them (:
 
 ## What is SRE?
 
-Site Reliability Engineering is a form of software and systems' engineering with a focus ensuring a specific service remains up and running. 
+Site Reliability Engineering is a form of software and systems' engineering with a focus ensuring a specific service remains up and running.
 
-Typically the responsibility of a SRE involves things outside of the binaries 
+Often, that means building automation and tooling surrounding the system to monitor, alert, and automate various processes within a system.
+
+While there's an operational component to SRE, the end goal is to use software engineering principles to detect, observe, and improve the resilience of a service.

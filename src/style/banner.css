@@ -1,6 +1,7 @@
 .banner {
     background: #96c4ff;
-    padding-left: 11rem;
+    padding-left: 1rem;
+    margin-left: 12rem;
     font-size: 24px;
-    font-family: "Quicksand SemiBold"
+    font-family: Quicksand SemiBold
 }

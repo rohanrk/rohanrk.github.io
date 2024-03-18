@@ -73,8 +73,8 @@ class App extends React.Component {
 function Layout(): React.ReactElement {
   return (
     <div id="container">
-      <Banner text="Rohan's Personal Site" />
       <Sidebar />
+      <Banner text="Rohan's Personal Site" />
       <Outlet />
     </div>
   );

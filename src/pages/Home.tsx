@@ -1,18 +1,12 @@
 import * as React from "react";
 
-import Banner from "../component/Banner";
-
 import "../style/home.css";
-
-interface HomeProps {
-  sections: string[];
-}
 
 const Home: React.FC<{}> = () => {
   return (
     <div className="home">
       <div className="intro">
-        <h2>Welcome!</h2>
+        <h1>Welcome!</h1>
         <p>
           Hello friend! I'm Rohan, one of the many tech people out in the world!
           Right now, I'm a Site Reliability Engineer at Google. Working on
@@ -21,7 +15,7 @@ const Home: React.FC<{}> = () => {
         <p>"The best part of being a computer scientist is literally committing to the bit"</p>
       </div>
       <div className="contact">
-        <h2>Contact me!</h2>
+        <h1>Contact me!</h1>
         <ul>
           <li>
             <a href="mailto:rohanrk2009@gmail.com">Gmail</a>
@@ -35,7 +29,7 @@ const Home: React.FC<{}> = () => {
         </ul>
       </div>
       <div className="projects">
-        <h2>Prior Work</h2>
+        <h1>Prior Work</h1>
         <p>Miscellaneous things I've written or worked on</p>
         <ul>
           <li>

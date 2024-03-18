@@ -16,7 +16,7 @@ So expect any amount of tech rants, book reviews, and thoughts on the current fa
 
 ## are you in tech?
 
-
+Originally, I wanted to be a game designer. Though my interests evolved, my desire to whisper to computers never changed, so here I am!
 
 ## not use Medium?
 

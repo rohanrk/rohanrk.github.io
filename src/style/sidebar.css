@@ -1,23 +1,28 @@
 .sidebar {
-    margin-top: 8em;
+    margin-top: 6rem;
     float: left;
     position: relative;
-    font-family: Palatino, Helvetica, Arial, sans-serif;
+    font-family: Quicksand Light, Helvetica, Arial, sans-serif;
 }
 
 .sidebar a {
     text-decoration: none;
-    color: #707070
+    color: #242426
 }
 
 .sidebar a:active {
-    color: #575757
+    color: #5d5d5d
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+    text-decoration-color: #24242665;
 }
 
 .sidebar_list {
     list-style: none;
     font-size: large;
     line-height: 2;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     text-decoration: none;
 }
