@@ -10,7 +10,7 @@
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html --public-url ./",
     "deploy": "push-dir --dir=dist --branch=deploy --cleanup --verbose",
-    "copy-assets": "cp -vR src/asset ./dist",
+    "copy-assets": "cp -vR src/asset/pfp.png ./dist",
     "copy-markdown": "cp -vR src/posts ./dist",
     "clean": "rm -rf ./dist"
   },

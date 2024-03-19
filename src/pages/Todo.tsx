@@ -8,7 +8,7 @@ const Todo: React.FC<{}> = () => {
       <h2>TODO: Working on it! Please come back soon.</h2>
       <img
         className="pfp"
-        src="/asset/pfp.png"
+        src="/pfp.png"
         alt="An image of me working that's not loading"
       ></img>
     </div>
