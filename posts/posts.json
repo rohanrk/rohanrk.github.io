@@ -1,0 +1,18 @@
+{
+    "posts": [
+        {
+            "path": "/blog/why",
+            "title": "Why?",
+            "subtitle": "Self reflection on why this page exists",
+            "date": "Feb 27, 2024",
+            "tags": ["#personal", "#meta"]
+        },
+        {
+            "path": "/blog/intro",
+            "title": "Intro",
+            "subtitle": "It me!",
+            "date": "Feb 14, 2024",
+            "tags": ["#personal"]
+        }
+    ]
+}
