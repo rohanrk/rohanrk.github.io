@@ -1,23 +1,33 @@
 @font-face {
     font-family: "Quicksand";
     src: 
-      local("Quicksand-Light"),
-      local("Quicksand-Regular"),
-      local("Quicksand-SemiBold"),
+      local("Quicksand Light"),
+      local("Quicksand Regular"),
+      local("Quicksand SemiBold"),
+      url("/asset/Quicksand/static/Quicksand-Light.ttf")
+      url("/asset/Quicksand/static/Quicksand-Regular.ttf")
+      url("/asset/Quicksand/static/Quicksand-SemiBold.ttf")
 
 }
 
 @font-face {
     font-family: "Merriweather";
     src:
-      local("Meriweather-Black.ttf")
-      local("Meriweather-BlackItalic.ttf")
-      local("Meriweather-Bold.ttf")
-      local("Meriweather-BoldItalic.ttf")
-      local("Meriweather-Italic.ttf")
-      local("Meriweather-Light.ttf")
-      local("Meriweather-LightItalic.ttf")
-      local("Meriweather-Regular.ttf")
+      local("Meriweather Black")
+      local("Meriweather BlackItalic")
+      local("Meriweather Bold")
+      local("Meriweather BoldItalic")
+      local("Meriweather Italic")
+      local("Meriweather Light")
+      local("Meriweather LightItalic")
+      local("Meriweather Regular")
+      url("/asset/Merriweather/Meriweather-Black.ttf")
+      url("/asset/Merriweather/Meriweather-BlackItalic.ttf")
+      url("/asset/Merriweather/Meriweather-Bold.ttf")
+      url("/asset/Merriweather/Meriweather-BoldItalic.ttf")
+      url("/asset/Merriweather/Meriweather-Light.ttf")
+      url("/asset/Merriweather/Meriweather-LightItalic.ttf")
+      url("/asset/Merriweather/Meriweather-Regular.ttf")
 }
 
 body {

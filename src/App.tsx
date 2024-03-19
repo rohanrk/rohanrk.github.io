@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/career",
-        element: <Career />,
+        element: <Todo />,
       },
       {
         path: "/blog",
